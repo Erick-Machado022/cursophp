@@ -19,9 +19,12 @@
     // echo "O valor é $num";
 
     #Para uma variavel booleana, se for igual a false retorna algo vazio/null se for igual a true retorna 1 ou true
-    $solteiro = true;
-    var_dump($solteiro);
-    echo "Essa pessoa é solteira? [$solteiro] (considere 1 para sim ou vazio para não)"
+    // $solteiro = true;
+    // var_dump($solteiro);
+    // echo "Essa pessoa é solteira? [$solteiro] (considere 1 para sim ou vazio para não)"
+
+    $vetor = [6, 2.5, "Maria", 3, false];
+    var_dump($vetor)
     ?>
 </body>
 </html>
